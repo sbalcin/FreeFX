@@ -1,0 +1,7 @@
+.about-us-main-container {
+  min-height: calc(100vh - 130px);
+  max-width: 1100px;
+  padding: 100px 30px 30px 30px;
+  margin: auto;
+}
+

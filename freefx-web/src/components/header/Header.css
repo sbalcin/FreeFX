@@ -1,0 +1,50 @@
+.no-border {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0);
+}
+
+.navigation-container {
+    background: #667db6 !important;
+}
+
+@media screen and (min-width: 767px) {
+    .navigation-container {
+        background: -webkit-linear-gradient(to right, #667db6, #667db6, #0082c8, #667db6, #667db6) !important; /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #667db6, #667db6, #0082c8, #667db6, #667db6) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+
+.navigation-logo {
+  margin-left: 80px;
+}
+
+.navigation-items-left {
+  margin-left: 240px;
+}
+
+.nivagation-items-right {
+  margin-right: 80px;
+}
+
+.navigation-item-right {
+  margin-right: 140px;
+}
+
+#sidenav-overlay {
+  opacity: 0.2 !important;
+  display: none !important;
+}
+
+.md-form label.active {
+  font-size: 0.8rem;
+  transform: translateY(-140%);
+}
+
+.show > a:hover {
+  background: #667db6;
+}
+
+.nav-link {
+  font-size: medium;
+}

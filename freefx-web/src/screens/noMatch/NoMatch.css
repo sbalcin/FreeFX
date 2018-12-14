@@ -1,0 +1,47 @@
+.no-match-container {
+    width: 100%;
+    min-height:calc(100vh - 130px);
+    background-color: #f1f3f6 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+
+.no-match-404-container {
+  position: absolute;
+  top: 25%;
+  left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.no-match-404-title {
+    font-size: 28px;
+    color: #2d486a;
+    font-weight: bold;
+    font-family: "Lato";
+}
+
+.no-match-404-detail {
+  font-size: 11px;
+  color: #2d486a;
+  font-weight: bold;
+  font-family: "Lato";
+}
+
+
+@media screen and (min-width: 767px) {
+    .no-match-404-title {
+        font-size: 94px;
+        letter-spacing: -.2rem;
+    }
+
+    .no-match-404-detail {
+        font-size: 20px;
+    }
+
+    .no-match-404-container {
+        top: 25%;
+        left: 40px;
+    }
+}

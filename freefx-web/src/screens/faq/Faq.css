@@ -1,0 +1,19 @@
+.faq-main-container {
+    min-height: calc(100vh - 130px);
+    max-width: 1100px;
+    padding: 50px 30px 30px 30px;
+    margin: auto;
+}
+
+.faqHeader {
+    font-size: 24px;
+    margin: 20px 20px 20px 0;
+}
+
+.faq-main-container a[data-toggle="collapse"] {
+    position: static !important;
+}
+
+.faqContent{
+    margin: 20px 20px 20px 40px;
+}

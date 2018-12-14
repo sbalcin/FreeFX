@@ -1,0 +1,137 @@
+#myFooter {
+    background: #667db6 !important; /* fallback for old browsers */
+    color: white;
+    width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+    #myFooter {
+        background: -webkit-linear-gradient(to right, #667db6, #667db6, #0082c8, #667db6, #667db6) !important; /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #667db6, #667db6, #0082c8, #667db6, #667db6) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+
+#myFooter .container .row {
+    margin-bottom: 0;
+    max-height: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+#myFooter .footer-copyright {
+    background: #667db6 !important; /* fallback for old browsers */
+    padding-top: 0px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+    #myFooter .footer-copyright {
+        background: -webkit-linear-gradient(to right, #667db6, #667db6, #0082c8, #667db6, #667db6) !important; /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #667db6, #667db6, #0082c8, #667db6, #667db6) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5 {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .myCols {
+    height: 36px;
+    text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+    #myFooter .myCols {
+        height: 42px;
+    }
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-top: 12px;
+}
+
+#myFooter .social-networks a {
+    font-size: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+
+}
+
+.font-facebook {
+  font-family: "FontAwesome" !important;
+}
+
+.font-twitter {
+  font-family: "FontAwesome" !important;
+}
+
+.font-google {
+  font-family: "FontAwesome" !important;
+}
+
+#myFooter .facebook:hover {
+    color: #dddddd;
+    font-family: "FontAwesome" !important;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+    font-family: "FontAwesome" !important;
+}
+
+#myFooter .twitter:hover {
+    color: #dddddd;
+    font-family: "FontAwesome" !important;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+#myFooter {
+    flex: 1;
+    align-self: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
