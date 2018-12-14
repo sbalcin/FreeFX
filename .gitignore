@@ -1,0 +1,13 @@
+.idea
+
+/freefx-server/.idea
+/freefx-server/target
+/freefx-server/freefx.iml
+
+/freefx-web/.idea
+/freefx-web/node_modules
+/freefx-web/build
+
+/freefx-selenium/.idea
+/freefx-selenium/target
+/freefx-selenium/FreeFXSelenium.iml
