@@ -3,7 +3,6 @@ This project contains very simple foreign exchange solutions.
 
 Below you will find some information on how to use the application.<br>
 
-You can reach a working example over this address http://37.59.110.96/ .<br>
 - H2 memory database used for demonstration convenience.<br>
 - Mockito used for unit tests. <br>
 - JpaRepository used for orm mapping.<br>
